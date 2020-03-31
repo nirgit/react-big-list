@@ -36,3 +36,22 @@
         transform: rotate(360deg);
     }
 }
+
+.big-list-title {
+    color: red;
+    font-size: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 200px);
+    grid-auto-rows: auto;
+}
+
+li {
+    display: inline;
+    border: 1px solid black;
+    margin: 0 2px;
+}
