@@ -42,16 +42,21 @@
     font-size: 2rem;
 }
 
+button {
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 ul {
     list-style-type: none;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(10, 200px);
+    grid-template-columns: repeat(auto-fill, 200px);
     grid-auto-rows: auto;
 }
 
 li {
-    display: inline;
     border: 1px solid black;
     margin: 0 2px;
 }
