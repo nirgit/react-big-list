@@ -7,10 +7,10 @@ const ASC = 1;
 const DESC = -1;
 var sortingOrder = ASC;
 
-const mockList = Array(10000).fill(1).map((v, idx) => {
+const mockList = Array(50000).fill(1).map((v, idx) => {
   return {
     id: idx,
-    value: Math.floor(Math.random() * 10000) + 1
+    value: Math.floor(Math.random() * 1000000) + 1
   }
 })
 
